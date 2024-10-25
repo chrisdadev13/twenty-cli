@@ -35,9 +35,6 @@ const opts = await p.group(
   },
 );
 
-opts.sourceApiKey = `b264aed6f44eaa4acb348fc9b87512f6f69a7aa703d7f76eb8d7ee282f6ab0d0`
-opts.twentyApiKey = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlNThmZTJlOS05YzUyLTQ1YmQtODg5OS1mOTQ0NzQxMTkxOGQiLCJpYXQiOjE3Mjg2ODMwMTYsImV4cCI6NDg4MjI4MzAxMywianRpIjoiOTFlMDM2YWYtYTQxZi00ZDg4LWI5NGItNTZkOGNhMTAyMmQ2In0.zYMjfcVEmlvAbVoTkceDCrJQngr8A3D6JyY1clSdxS0`
-
 if (!opts.sourceApiKey) {
   logger.error("Source API key cannot be undefined");
   process.exit(1);
